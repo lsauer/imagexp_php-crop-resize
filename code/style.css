@@ -1,0 +1,87 @@
+    /**************************************************
+    *                                                 *
+    *              I M A G E  X P   v.1               *
+    *              ---------------------              *
+    *                                                 *
+    * Platform : independent                          *
+    * Requires : PHP >4.x, w. GDlib, MySQL 3.x        *
+    * Licence  : LGPL, GPL                            *
+    * Author   : Lorenz Lo S. (sl@cyion.com)          *
+    *               (c) 2003                          *
+    **************************************************/
+	
+a.linkNav
+{font-family: Tahoma, Arial;font-size: 11px;font-style: normal;color: #000000;text-decoration: none;padding-right: 8px;padding-left: 8px;vertical-align: middle;}
+a.linkNav:visited
+{font-family: Tahoma, Arial;font-size: 11px;font-style: normal;color: #000000;text-decoration: none;padding-right: 8px;padding-left: 8px;vertical-align: middle;}
+a.linkNav:hover
+{font-family: Tahoma, Arial;font-size: 11px;font-style: normal;color: #000000;text-decoration: none;padding-right: 8px;padding-left: 8px;border-top: 1px solid #FFFFFF;border-right: 1px solid #808080;border-bottom: 1px solid #808080;border-left: 1px solid #FFFFFF;vertical-align: middle;height: 19px;}
+a.linkNav:active
+{font-family: Tahoma, Arial;font-size: 11px;font-style: normal;color: #000000;text-decoration: none;padding-right: 8px;padding-left: 8px;border-top: 1px solid #FFFFFF;border-right: 1px solid #808080;border-bottom: 1px solid #808080;border-left: 1px solid #FFFFFF;vertical-align: middle;height: 19px;}
+
+a.button
+{font-family: Tahoma, Arial;font-size: 11px;font-style: normal;color: #000000;text-decoration: none;padding-right: 8px;padding-left: 8px;vertical-align: middle;background-color: #E2E2E2;border: 1px solid #808080;}
+a.button:visited
+{font-family: Tahoma, Arial;font-size: 11px;font-style: normal;color: #000000;text-decoration: none;padding-right: 8px;padding-left: 8px;vertical-align: middle;background-color: #E2E2E2;border: 1px solid #808080;}
+a.button:hover
+{font-family: Tahoma, Arial;font-size: 11px;font-style: normal;color: #000000;text-decoration: none;padding-right: 8px;padding-left: 8px;vertical-align: middle;background-color: #999999;border: 1px solid #000099;}
+a.button:active
+{font-family: Tahoma, Arial;font-size: 11px;font-style: normal;color: #000000;text-decoration: none;padding-right: 8px;padding-left: 8px;vertical-align: middle;background-color: #999999;border: 1px solid #000099;}
+
+a.link_l
+{font-family: Tahoma, Arial;font-size: 11px; font-style: normal;color: #000000;text-decoration: none }
+a.link_l:visited
+{font-family: Tahoma, Arial; font-size: 11px; font-style: normal; color: #000000; text-decoration: none}
+a.link_l:hover
+{font-family: Tahoma, Arial; font-size: 11px; font-style: normal; color: #000000; text-decoration: underline}
+a.link_l:active
+{font-family: Tahoma, Arial;font-size: 11px; font-style: normal;color: #000000;text-decoration: underline}
+
+a.link_meta
+{font-family: Tahoma, Arial;font-size: 10px;font-style: normal;color: #FFFFFF;text-decoration: none;font-weight: bold;}
+a.link_meta:visited
+{font-family: Tahoma, Arial; font-size: 10px; font-style: normal; color: #FFFFFF; text-decoration: none}
+a.link_meta:hover
+{font-family: Tahoma, Arial; font-size: 10px; font-style: normal; color: #FFFFFF; text-decoration: underline}
+a.link_meta:active
+{font-family: Tahoma, Arial;font-size: 10px; font-style: normal; color: #FFFFFF;text-decoration: underline}
+
+.text_headline
+{ font-family: Tahoma, Arial; font-size: 13px; font-weight: bold; color: #000000}
+.text_small
+{ font-family: Tahoma, Arial; font-size: 9px; font-weight: normal; color: #000000}
+.text
+{ font-family: Tahoma, Arial; font-size: 11px; font-weight: normal; color: #000000}
+.text_large
+{ font-family: Tahoma, Arial; font-size: 11px; font-weight: normal; color: #000000}
+
+.input
+{color:#000000;font-family:Tahoma, Arial;font-weight:normal;font-size:10px;background-color: #F5F5F5;border: 1px solid #8B8B8B;}
+.pulldown
+{color: #000000;font-size: 10px;font-family: Tahoma, Arial;background-color: #F5f5f5;border-color: #FFFFCC;}
+.textarea
+{color: #000000;font-size: 10px;font-family: Tahoma, Arial;background-color: #FFFFCC;border-color: #FFFFCC;}
+
+a.link_para
+{font-family: Tahoma, Arial;color: #333333;font-size: 11px;text-decoration: none;}
+a.link_para:visited
+{font-family: Tahoma, Arial;color: #333333;font-size: 11px;text-decoration: none;}
+a.link_para:hover
+{font-family: Tahoma, Arial;color: #333333;font-size: 11px;text-decoration: none;}
+a.link_para:active
+{font-family: Tahoma, Arial;color: #333333;font-size: 11px;}
+
+
+#work_canvas {
+	display:block;
+ 	background-color:#ffffff;
+	position:absolute;
+	left:141px;
+	top:288px;
+	width:300px;
+	height:100px;
+	z-index:2;
+	filter:alpha(opacity=60);
+	-moz-opacity:40%;
+	overflow: hidden;
+}
