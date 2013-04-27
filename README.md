@@ -85,5 +85,5 @@ A crop-canvas is overlayed and can be moved and resized to set the final size an
 
 
 ###Useful links: 
-- www.php.net
-- libgd.bitbucket.org/
+- http://www.php.net
+- http://libgd.bitbucket.org
