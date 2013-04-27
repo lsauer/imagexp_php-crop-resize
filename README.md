@@ -83,6 +83,11 @@ A crop-canvas is overlayed and can be moved and resized to set the final size an
         Winter.jpg
 ```
 
+###Deploy
+
+1. Put `imgxp.php` and `cropimage.php` on any PHP server with the libgd extension set to active.  
+2. In the file `res/code/cropXP.js`, scroll down to the function `passForward` and set `var urlGET` to a remote or local endpoint-url running `cropimage.php`.  
+*In case of `pic_cont_resize.html` being deployed separately from the PHP scripts, it is advisable to upload the images to the PHP server as well.*
 
 ###Useful links: 
 - http://www.php.net

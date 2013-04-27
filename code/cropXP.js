@@ -198,7 +198,7 @@ function initUnselectable(){
 */ 
 function passForward(){
 	//absolute path to script
-	var str='../cropimage.php?';
+	var urlGET='../cropimage.php?';
 	var work_space = document.getElementById('work_space');
 	
 	//compile basic params
@@ -207,18 +207,18 @@ function passForward(){
 	var cposX = document.getElementById('c_width').innerHTML;
 	var cposY = document.getElementById('c_height').innerHTML;
 	
-	str += 'src='+work_space.src;
-	str += '&pos[l]='+irelL+'&pos[t]='+irelT+'&pos[w]='+cposX+'&pos[h]='+cposY;
+	urlGET += 'src='+work_space.src;
+	urlGET += '&pos[l]='+irelL+'&pos[t]='+irelT+'&pos[w]='+cposX+'&pos[h]='+cposY;
 	
 	//compile additional parameters
 	var sresW = document.getElementById('s_width').value;
 	var sresH = document.getElementById('s_height').value;
 	var squal = document.getElementById('s_qual').value;
 	
-	str += '&res[w]='+parseInt(sresW)+'&res[h]='+parseInt(sresH)+'&qual='+squal;
+	urlGET += '&res[w]='+parseInt(sresW)+'&res[h]='+parseInt(sresH)+'&qual='+squal;
 
 	//now pass forward
-	document.getElementById('fr_preview').src = str;
+	document.getElementById('fr_preview').src = urlGET;
 }
 
 /*initProperties:
